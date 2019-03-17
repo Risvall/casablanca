@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Casablanca</title>
-	<link rel="stylesheet" type="text/css" href="animate.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>casablanca</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
-	<div class="background">
-		<div class="container">
-			<img class="pilimg animated bounce" src="pil.png">
-		</div>
-	</div>	
+<section>
+<h1></h1>
+<a href="#" class="scroll-down" address="true"></a>
+</section>
+<div class="ok">
 	<div class="containerflow">
 		<div class="containercol">
 			<h1>Om butiken</h1>
@@ -34,19 +33,19 @@
 			<img class="gustaf" src="gustaf.png">
 			<h2>Carl XVI Gustaf</h2>
 			<h3>Kungen</h3>
-			<p>Carl Gustaf är en av skaparna av denna hemsida</p>
+			<h4>Carl Gustaf är en av skaparna av denna hemsida</h4>
 		</div>	
 		<div class="containercol2">
 			<img class="gustaf" src="gustaf.png">
 			<h2>Carl XVI Gustaf</h2>
 			<h3>Kungen</h3>
-			<p>Carl Gustaf är en av skaparna av denna hemsida</p>
+			<h4>Carl Gustaf är en av skaparna av denna hemsida</h4>
 		</div>	
 		<div class="containercol2">
 			<img class="gustaf" src="gustaf.png">
 			<h2>Carl XVI Gustaf</h2>
 			<h3>Kungen</h3>
-			<p>Carl Gustaf är en av skaparna av denna hemsida</p>
+			<h4>Carl Gustaf är en av skaparna av denna hemsida</h4>
 		</div>		
 	</div>
 	<div class="containercontact">
@@ -70,6 +69,16 @@
 		    <input type="submit" value="Submit">
 		  </form>
 	</div>
-	<footer><img class="imghead" src="astime2.png"></footer>
+</div>
+<footer><img class="imghead" src="astime2.png"></footer>
+<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>   
+<script>
+         $(function() {
+    $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('div.ok').offset().top }, 'slow');
+      return false;
+    });
+  });
+</script>
 </body>
 </html>
