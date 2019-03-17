@@ -114,8 +114,7 @@ h4 {
   display: flex;
   border-bottom: 2px solid #FFF2EB;
   justify-content: center;
-  margin: 100px;
-  margin-top: 50px;
+  padding: 50px;
 }
 
 .containerflow2 {
@@ -167,6 +166,11 @@ h4 {
   border-radius: 50%;
   border: 6px solid white;
   box-shadow: 2px 3px lightgrey;
+  transition: all 1s;
+}
+
+.gustaf:hover {
+  transform: scale(1.1);
 }
 
 input[type=text], select, textarea {
