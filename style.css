@@ -1,0 +1,160 @@
+body {
+	margin: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+}
+
+.dropbtn:hover {
+	background-color: red;
+}
+
+.facebooklink {
+	margin-left: 30px;
+}
+
+.facebooklink:hover {
+	opacity: 0.8;
+}
+
+.facebookimg {
+	width: 25px;
+	margin-top: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.headerimg {
+	margin-top: 50px;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 2px 2px 8px black;
+}
+
+h4 {
+	margin: 15px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	line-height: 0px;
+	width: 600px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: beige;
+}
+
+.container3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.produkter {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.bildprodukt {
+  width: 300px;
+  height: 200px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.container4 {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.container5 {
+	width: 350px;
+	background-color: beige;
+	padding: 50px 100px;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	height: 40px;
+	background-color: beige;
+}
